@@ -90,7 +90,7 @@ export default function About() {
               {/* Profile Image */}
               <div className="relative mb-5 aspect-4/3 w-full overflow-hidden rounded-[18px] border-[3px] border-[#111111] bg-[#C8FF1A]">
                 <Image
-                  src="/images/irwan.jpg"
+                  src="/images/irwan.JPG"
                   alt="Irwansyah"
                   fill
                   className="object-cover"
