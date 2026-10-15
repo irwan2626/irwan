@@ -14,6 +14,8 @@ const projects = [
     technologies: ["Laravel", "MySQL", "PWA", "Android"],
     icon: Database,
     color: "bg-[#C8FF1A]",
+    repoUrl: "https://github.com/irwan2626/laboratorium",
+    demoUrl: "#contact",
   },
   {
     number: "02",
@@ -24,6 +26,8 @@ const projects = [
     technologies: ["Next.js", "React", "Tailwind CSS"],
     icon: Globe,
     color: "bg-[#52C0FE]",
+    repoUrl: "https://github.com/irwan2626/irwan",
+    demoUrl: "#home",
   },
   {
     number: "03",
@@ -34,6 +38,8 @@ const projects = [
     technologies: ["Flutter", "Kotlin", "Android"],
     icon: Smartphone,
     color: "bg-[#C8FF1A]",
+    repoUrl: "https://github.com/irwan2626/Aplikasi-Story-App",
+    demoUrl: "#contact",
   },
 ];
 
@@ -93,7 +99,7 @@ export default function Projects() {
                   {/* Main Visual Box */}
                   <div className="relative z-10 flex h-32 w-44 -rotate-2 items-center justify-center rounded-xl border-[2.5px] border-[#111111] bg-white shadow-[5px_5px_0px_#111111] transition-transform duration-300 group-hover:rotate-0">
                     <div className="text-center">
-                      <div className="mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-xl border-[2px] border-[#111111] bg-[#111111] text-white">
+                      <div className="mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-xl border-2 border-[#111111] bg-[#111111] text-white">
                         <Icon size={20} />
                       </div>
                       <p className="text-[10px] font-bold uppercase tracking-wider text-gray-500">
@@ -150,13 +156,15 @@ export default function Projects() {
                   {/* BUTTONS */}
                   <div className="mt-6 flex flex-wrap gap-2.5 border-t border-dashed border-gray-300 pt-4">
                     <a
-                      href="#"
+                      href={project.repoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 rounded-full border-2 border-[#111111] bg-[#111111] px-4 py-2 text-xs font-bold text-white shadow-[2.5px_2.5px_0px_#52C0FE] transition-all hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none"
                     >
                       <FaGithub size={14} /> GitHub
                     </a>
                     <a
-                      href="#"
+                      href={project.demoUrl}
                       className="inline-flex items-center gap-1.5 rounded-full border-2 border-[#111111] bg-white px-4 py-2 text-xs font-bold text-[#111111] shadow-[2.5px_2.5px_0px_#111111] transition-all hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none"
                     >
                       <ExternalLink size={14} /> Live Demo
@@ -175,7 +183,7 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-8 flex flex-col items-start justify-between gap-4 rounded-[24px] border-[3px] border-[#111111] bg-[#C8FF1A] p-6 shadow-[6px_6px_0px_#111111] sm:flex-row sm:items-center md:p-8"
+          className="mt-8 flex flex-col items-start justify-between gap-4 rounded-3xl border-[3px] border-[#111111] bg-[#C8FF1A] p-6 shadow-[6px_6px_0px_#111111] sm:flex-row sm:items-center md:p-8"
         >
           <div>
             <p className="text-xs font-black uppercase tracking-wider text-[#111111]">
