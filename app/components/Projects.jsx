@@ -27,7 +27,7 @@ const projects = [
     icon: Globe,
     color: "bg-[#52C0FE]",
     repoUrl: "https://github.com/irwan2626/irwan",
-    demoUrl: "#home",
+    demoUrl: "https://irwan-amber.vercel.app/#home",
   },
   {
     number: "03",
