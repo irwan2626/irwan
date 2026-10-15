@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,4 +26,9 @@
 body {
   background: white;
   color: black;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
 }

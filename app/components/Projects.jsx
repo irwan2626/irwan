@@ -55,7 +55,7 @@ export default function Projects() {
           </div>
 
           <h2 className="max-w-3xl text-3xl font-black leading-tight tracking-tight sm:text-4xl md:text-5xl">
-            Things I've{" "}
+            Things I&apos;ve{" "}
             <span className="rounded-lg bg-[#C8FF1A] px-2 text-[#111111]">
               built.
             </span>
@@ -181,7 +181,7 @@ export default function Projects() {
             <p className="text-xs font-black uppercase tracking-wider text-[#111111]">
               More projects
             </p>
-            <h3 className="mt-1 text-xl font-black text-[#111111] md:text-2xl">
+              <h3 className="mt-1 text-xl font-black text-[#111111] md:text-2xl">
               Want to see more of my work?
             </h3>
           </div>
@@ -190,7 +190,7 @@ export default function Projects() {
             href="#contact"
             className="inline-flex items-center gap-2 rounded-full border-[2.5px] border-[#111111] bg-white px-5 py-2.5 text-xs font-black shadow-[3.5px_3.5px_0px_#111111] transition-all hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none"
           >
-            Let's Talk
+            Let&apos;s Talk
             <ExternalLink size={16} />
           </a>
         </motion.div>

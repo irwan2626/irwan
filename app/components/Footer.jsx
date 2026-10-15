@@ -76,10 +76,7 @@ export default function Footer() {
             transition={{ duration: 0.5 }}
             className="md:col-span-5"
           >
-            <a
-              href="#home"
-              className="inline-block text-2xl font-black tracking-tight md:text-3xl"
-            >
+            <a href="#home" className="inline-block text-2xl font-black tracking-tight md:text-3xl">
               Irwan
               <span className="text-[#C8FF1A]">.</span>
             </a>
@@ -152,7 +149,7 @@ export default function Footer() {
           >
             <div className="rounded-[20px] border-[2.5px] border-white bg-[#C8FF1A] p-5 text-[#111111] shadow-[5px_5px_0px_#52C0FE]">
               <p className="text-[11px] font-black uppercase tracking-wider">
-                Let's connect
+                Let&apos;s connect
               </p>
 
               <h3 className="mt-1 text-lg font-black leading-snug">

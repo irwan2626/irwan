@@ -88,7 +88,7 @@ export default function Experience() {
           </div>
 
           <h2 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl md:text-6xl">
-            Where I've{" "}
+            Where I&apos;ve{" "}
             <span className="rounded-lg bg-[#52C0FE] px-2 text-[#111111]">
               learned & grown.
             </span>
@@ -238,7 +238,7 @@ export default function Experience() {
         >
           <div>
             <p className="text-xs font-bold uppercase tracking-wider text-[#C8FF1A]">
-              Let's work together
+              Let&apos;s work together
             </p>
             <h3 className="mt-1 text-xl font-black text-white md:text-2xl">
               Ready to turn ideas into something useful?
@@ -249,7 +249,7 @@ export default function Experience() {
             href="#contact"
             className="inline-flex items-center gap-2 rounded-full border-[3px] border-[#111111] bg-[#C8FF1A] px-6 py-3 text-sm font-black shadow-[4px_4px_0px_#52C0FE] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none"
           >
-            Let's Talk
+            Let&apos;s Talk
             <ArrowUpRight size={18} />
           </a>
         </motion.div>

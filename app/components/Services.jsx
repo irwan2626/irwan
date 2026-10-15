@@ -186,7 +186,7 @@ export default function Services() {
               </div>
 
               <h3 className="max-w-xl text-xl font-black leading-snug text-white md:text-2xl">
-                Let's turn your idea into a digital solution.
+                Let&apos;s turn your idea into a digital solution.
               </h3>
 
               <p className="mt-2 max-w-lg text-xs leading-relaxed text-gray-300">

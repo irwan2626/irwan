@@ -53,7 +53,7 @@ export default function Contact() {
           </div>
 
           <h2 className="max-w-3xl text-3xl font-black leading-tight tracking-tight sm:text-4xl md:text-5xl">
-            Let's build something{" "}
+            Let&apos;s build something{" "}
             <span className="rounded-lg bg-[#52C0FE] px-2 text-[#111111]">
               together.
             </span>
@@ -270,14 +270,11 @@ export default function Contact() {
               </p>
 
               <h3 className="mt-1 text-xl font-black text-[#111111] md:text-2xl">
-                Let's create something meaningful.
+                Let&apos;s create something meaningful.
               </h3>
             </div>
 
-            <a
-              href="mailto:your.email@gmail.com"
-              className="inline-flex items-center justify-center gap-2 rounded-full border-[2.5px] border-[#111111] bg-white px-5 py-2.5 text-xs font-black text-[#111111] shadow-[3.5px_3.5px_0px_#111111] transition-all hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none"
-            >
+            <a href="mailto:your.email@gmail.com" className="inline-flex items-center justify-center gap-2 rounded-full border-[2.5px] border-[#111111] bg-white px-5 py-2.5 text-xs font-black text-[#111111] shadow-[3.5px_3.5px_0px_#111111] transition-all hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none">
               Email Me
               <Mail size={16} />
             </a>
